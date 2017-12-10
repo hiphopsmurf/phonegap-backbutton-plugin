@@ -51,6 +51,18 @@ public class BackbuttonPlugin extends CordovaPlugin {
 			callbackContext.success();
 			return true;
 		}
+		
+		if ("goExit".equals(action)) {
+			try {
+				finish();
+			} catch (Exception e) {
+				Log.e(LOG_TAG, "Exception occurred: ".concat(e.getMessage()));
+				android.os.Process.killProcess(android.os.Process.myPid());
+				return false;//Just in case
+			}
+			callbackContext.success();
+			return true;
+		}
 
 		Log.e(LOG_TAG, "Called invalid action: "+action);
 		return false;
