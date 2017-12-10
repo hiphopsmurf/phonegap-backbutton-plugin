@@ -32,9 +32,9 @@ https://github.com/mohamed-salah/phonegap-backbutton-plugin
 
 for Cordova >= 3.0.0
 
-phonegap local plugin add https://github.com/mohamed-salah/phonegap-backbutton-plugin.git
+phonegap local plugin add https://github.com/hiphopsmurf/phonegap-backbutton-plugin.git
 
-cordova plugin add https://github.com/mohamed-salah/phonegap-backbutton-plugin.git
+cordova plugin add https://github.com/hiphopsmurf/phonegap-backbutton-plugin.git
 
 for Cordova >= 5.0.0
 
