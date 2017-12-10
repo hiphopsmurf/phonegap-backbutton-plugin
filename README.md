@@ -25,6 +25,8 @@ navigator.Backbutton.goBack(function() {
   console.log('fail')
 });
 ```
+## Forked From
+https://github.com/mohamed-salah/phonegap-backbutton-plugin
 
 ## Installation 
 
